@@ -7,6 +7,9 @@
   </header>
 
   <main>
+    <div class="app">
+      jag kommer lägga till en räknare här
+    </div>
   </main>
   
 </template>
