@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "/vue-endless-counter/",
+  base: "/vue-endless-countdown/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
