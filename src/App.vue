@@ -16,14 +16,32 @@ import EndlessCounter from './components/EndlessCounter.vue';
 </template>
 
 <style scoped>
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  text-align: center;
+}
+
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
+#app > h2 {
+  margin-top: 0;
+}
 
 </style>
