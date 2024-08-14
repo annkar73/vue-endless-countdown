@@ -5,13 +5,13 @@ import EndlessCounter from './components/EndlessCounter.vue';
 <template>
   <main>
     <div id="app">
-      <h1>Nedräkning till färdigt projekt</h1>
+      <h1>Snart är det klart!</h1>
       <div class="countdown-container">
-        <p>Det kommer vara klart om</p>
+        <p>Det är bara</p>
         <div class="counter">
           <EndlessCounter />
         </div>
-        <p>sekunder.</p> 
+        <p>sekunder kvar.</p> 
         <h3>Jag lovar!!</h3>
       </div>
     </div>
@@ -25,7 +25,8 @@ main {
   justify-content: center;
   align-items: center; 
   height: 100vh; 
-  margin: 0; 
+  margin: none; 
+  padding: none;
   background-color: #f0f0f0; 
 }
 
@@ -53,10 +54,14 @@ h1 {
 }
 
 p {
-  font-size: 1em; 
+  font-size: 1.5em; 
   margin: 0; 
 }
 h3 {
+  padding: 10px 50px;
+  color: red;
   font-weight: bolder;
+  font-size: 1.7em;
+  text-transform: uppercase;
 }
 </style>
