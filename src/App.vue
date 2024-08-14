@@ -1,22 +1,27 @@
 <script setup lang="ts">
+import EndlessCounter from './components/EndlessCounter.vue';
+
 </script>
 
 <template>
-  <header>
 
-  </header>
 
   <main>
-    <div class="app">
-      jag kommer lägga till en räknare här
+    <div id="app">
+      <h1>Nedräkning till färdigt projekt</h1>
+      <div class="counting">Det kommer vara klart om  <EndlessCounter />  sekunder!</div>
     </div>
   </main>
   
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+h1 {
+  font-size: 1.5em;
+}
+
+.counter {
+  font-size: 1em;
 }
 
 
