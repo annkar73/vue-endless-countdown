@@ -4,7 +4,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const countdown = ref(getRandomNumber()); // Initialiserar med ett slumpmässigt värde
 const minStartValue = 12;
-const maxStartValue = 100;
+const maxStartValue = 60;
 const minRandomValue = 3;
 const maxRandomValue = 15;
 
@@ -19,7 +19,7 @@ function getRandomMinValue() {
 
 function startCountdown() {
   const minValue = getRandomMinValue();
-  
+
   intervalId = setInterval(() => {
     if (countdown.value > minValue) {
       countdown.value--;
