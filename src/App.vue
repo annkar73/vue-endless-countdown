@@ -9,7 +9,7 @@ import EndlessCounter from './components/EndlessCounter.vue';
   <main>
     <div id="app">
       <h1>Nedräkning till färdigt projekt</h1>
-      <div class="counting">Det kommer vara klart om  <EndlessCounter />  sekunder!</div>
+      <h2>Det kommer vara klart om  <EndlessCounter />  sekunder!</h2>
     </div>
   </main>
   
@@ -18,9 +18,10 @@ import EndlessCounter from './components/EndlessCounter.vue';
 <style scoped>
 h1 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
-.counter {
+h2 {
   font-size: 1em;
 }
 
