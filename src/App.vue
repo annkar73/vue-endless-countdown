@@ -11,7 +11,8 @@ import EndlessCounter from './components/EndlessCounter.vue';
         <div class="counter">
           <EndlessCounter />
         </div>
-        <p>sekunder. Jag lovar!!</p>
+        <p>sekunder.</p> 
+        <h3>Jag lovar!!</h3>
       </div>
     </div>
   </main>
@@ -52,7 +53,10 @@ h1 {
 }
 
 p {
-  font-size: 1.5em; 
+  font-size: 1em; 
   margin: 0; 
+}
+h3 {
+  font-weight: bolder;
 }
 </style>
