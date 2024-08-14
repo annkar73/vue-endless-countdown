@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # endless-counter
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -37,3 +38,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# vue-endless-countdown
+>>>>>>> bb0f31a222e348c64bd6ca8fab284f4f747c52b4
