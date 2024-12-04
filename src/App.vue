@@ -5,7 +5,7 @@ import EndlessCounter from './components/EndlessCounter.vue';
 <template>
   <main>
     <div id="app">
-      <h1>Snart är det klart!</h1>
+      <h1>Jag är snart klar!</h1>
       <div class="countdown-container">
         <p>Det är bara</p>
         <div class="counter">
