@@ -33,6 +33,7 @@ main {
 
 #app {
   text-align: center; 
+  z-index: 1000;
 }
 
 h1 {
